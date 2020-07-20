@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "plugin:react/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": ["react", "@typescript-eslint", "prettier"],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "@typescript-eslint/no-empty-interface": "warn",
+        "react/prop-types": "off"
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        }
+    },
+    "parser": "@typescript-eslint/parser"
+}
