@@ -1,0 +1,9 @@
+{
+    "name": "serve-build",
+    "scripts": {
+        "start": "serve --single"
+    },
+    "dependencies": {
+        "serve": "latest"
+    }
+}
